@@ -21,3 +21,13 @@ p {
     padding: 10px;
     color: black;
 }
+footer {
+    background-color: darkblue;
+    padding: 5px;
+}
+footer p {
+    color: white;
+    display: block;
+    text-align: center;
+    text-shadow: blue;
+}
