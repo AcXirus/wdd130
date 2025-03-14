@@ -20,6 +20,7 @@ main img {
     box-shadow: 0 0 30px gray;
     padding: 2px;
 }
+p { padding: 0; }
 main {
     max-width: 840px;
 }
@@ -36,9 +37,6 @@ aside img {
     width: 200px;
     height: auto;
     border: 1px solid white;
-}
-p {
-    padding: 0px;
 }
 footer {
     margin-top: 15px;
