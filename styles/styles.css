@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --heading-backgroung-color: rgb(99, 99, 199);
     --heading-h1-color: rgb(44, 58, 138);
@@ -16,6 +21,7 @@ nav a {
 }
 h1 {
     color: var(--heading-h1-color);
+    padding: 15px;
 }
 main img {
     width: 150px;
@@ -23,19 +29,23 @@ main img {
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
     padding: 2px;
+    float: right;
 }
-p { padding: 0; }
+p { padding: 1rem;
+    font-size: medium;
+    text-align: left;
+}
 main {
     max-width: 840px;
 }
 aside {
     max-width: 20rem;
-    margin: 1rem;
-    border: 1px solid lightgrey;
-    padding: 1rem;
-    background-color: #dcd7f4;
     color: black;
     text-align: center;
+}
+h2 {
+    position: absolute;
+    left: 135px;
 }
 aside img {
     width: 200px;
@@ -52,4 +62,11 @@ footer p {
     color: white;
     display: block;
     text-align: center;
+}
+/* class selector */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    background-color: #dcd7f4;
 }
