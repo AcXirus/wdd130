@@ -1,4 +1,3 @@
-/*  https://coolors.co/f2d7ee-d3bcc0-a5668b-69306d-0e103d */
 :root{
     --primary-color: #1E88E5;
     --secondary-color: #ECEFF1;	
@@ -128,3 +127,4 @@ section h3 {
     background-color: var(--secondary-color);
     text-align: center;
 }
+/* 21-03-2025 */
