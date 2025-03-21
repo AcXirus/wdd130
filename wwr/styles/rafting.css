@@ -42,7 +42,7 @@ header .logo-box {
     text-align: right;
 }
 
-.menu-item a {
+.menu a {
     color: black;
     font-size: 16px;
     text-decoration: none;
@@ -101,7 +101,7 @@ article img {
     font-family: var(--text-font);
 }
 
-section h3 {
+section h2 {
     text-align: left;
     font-size: 25px;
     font-family: var(--heading-font);
