@@ -1,0 +1,130 @@
+/*  https://coolors.co/f2d7ee-d3bcc0-a5668b-69306d-0e103d */
+:root{
+    --primary-color: #1E88E5;
+    --secondary-color: #ECEFF1;	
+    --accent1-color: #B0BEC5;
+    --accent2-color: #FFB300;
+    --heading-font: "open sans", sans-serif;
+    --text-font: "lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: var(--primary-color);
+}
+
+header {
+    margin: 1rem;
+    padding: 15px;
+    border: 1px var(--accent1-color);
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+}
+
+header .logo-box {
+    margin: 10px;
+    padding: 15px;
+    border: 1px var(--secondary-color); 
+    width: 150px;
+    height: auto;   
+    margin-right: 47rem;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    text-align: right;
+}
+
+.menu-item a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.head img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: var(--heading-font);
+    position: absolute;
+    top: 250px; 
+    left: 500px; 
+    color: white; 
+    z-index: 2; 
+    background-color: rgba(7, 6, 58, 0.315);
+    padding: 25px;
+}
+
+article {
+    margin: 1rem;
+    padding: 15px;
+    border: 1px var(--accent1-color);
+    text-align: left;
+    font-size: 16px;
+    font-style: var(--text-font);
+    position: absolute;
+    background-color: rgba(6, 5, 83, 0.315);
+    top: 350px;
+    left: 15px;
+    color: white;
+}
+
+article img {
+    float: right;
+    width: 25%; 
+    margin-left: 20px; 
+    margin-bottom: 10px; 
+}
+
+
+.box-h2 h2 {
+    text-align: left;
+    font-size: 25px;
+    font-family: var(--heading-font);
+}
+
+.box-h2 p {
+    text-align: justify;
+    font-size: 16px;
+    font-family: var(--text-font);
+}
+
+section h3 {
+    text-align: left;
+    font-size: 25px;
+    font-family: var(--heading-font);
+}
+
+.img-box {
+    width: 200px;
+    height: auto;
+}
+
+.footer-box {
+    margin: 1rem;
+    padding: 15px;
+    border: 1px var(--secondary-color);
+    background-color: var(--accent1-color);
+    text-align: center;
+}
+
+.logo-media {
+    margin: 1rem;
+    padding: 15px;
+    border: 1px var(--accent1-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+}
