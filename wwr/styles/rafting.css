@@ -38,12 +38,13 @@ nav {
 nav img {
     width: 105px;
     height: auto;
-    margin-right: 1rem;
+    margin-right: 6rem;
 }
 
 nav h1 {
     font-size: 2rem;
-    font-family: var(--heading-font);
+    font-family:'Times New Roman', Times, serif;
+    color: var(--accent2-color);
 }
 
 .menu {
@@ -73,56 +74,84 @@ nav h1 {
 
 .head {
     text-align: center;
-    position: relative;
+    margin: 3rem;
+    padding: 1px;
+    border: 1px;
+    width: 1250px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
 }
 
 .head img {
     width: 100%;
-    height: auto;
+    height: 550x;
     display: block;
+    position: relative;
 }
 
 .head h1 {
-    background-color: rgba(13, 12, 77, 0.5);
+    background-color: rgba(27, 26, 110, 0.411);
     color: var(--accent1-color);
-    padding: 10px;
-    font-size: 25px;
+    margin: 15px auto;
+    padding: 50px;
+    font-size: 60px;
+    left: 378px;
+    bottom: 180px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 article {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     background-color: rgba(13, 12, 77, 0.2);
     border: 1px solid var(--accent1-color);
     text-align: center;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 15px auto;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 600px; 
+    max-width: 100%;
+    align-items: center; 
 }
 
 .box-h2 {
     background-color: var(--secondary-color);
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 1220px;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
 
 .box-h2 h2 {
-    font-size: 28px;
+    font-size: 30px;
     font-family: var(--heading-font);
+    color: var(--accent2-color);
+    background-color: rgba(31, 29, 122, 0.089);
     margin-bottom: 20px;
+    border-radius: 6px;
 }
 
 .text-left, .text-right {
-    background-color: rgba(13, 12, 77, 0.1);
+    background-color: rgba(13, 12, 77, 0.274);
     padding: 20px;
     border-radius: 10px;
-    text-align: justify;
+    text-align: center;
     font-size: 16px;
     border: 1px solid var(--accent1-color);
     margin-bottom: 20px;
+    max-width: 30%; 
+    position: absolute;
+    z-index: 1;
+}
+
+.text-left {
+    top: 54.5rem;
+}
+
+.text-right {
+    left: 52.5rem;
+    top: 54.5rem;
 }
 
 .image-container {
@@ -131,9 +160,18 @@ article {
 }
 
 .image-container img {
-    width: 100%;
-    max-width: 400px;
+    width: 500%;
+    max-width: 210px;
     border-radius: 10px;
+}
+
+section h2 {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    border-radius: 6px;
+    margin: 15px;
+    padding: 10px;
 }
 
 .img-box {
@@ -163,7 +201,7 @@ article {
     padding: 15px;
     border: 1px solid var(--accent1-color);
     background-color: var(--secondary-color); 
-    gap: 0.5rem;
+    gap: 0.1rem;
     max-width: 2000px; 
 }
 
@@ -175,10 +213,11 @@ article {
 
 .logo-media .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 0.1px;
 }
 
 .logo-media a img {
     width: 30px; 
     height: 30px; 
+    margin-right: 55px;
 }
