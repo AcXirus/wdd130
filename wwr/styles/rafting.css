@@ -1,8 +1,9 @@
 :root {
     --primary-color: #1E88E5;
     --secondary-color: #ECEFF1;    
-    --accent1-color: #B0BEC5;
-    --accent2-color: #FFB300;
+    --accent1-color: #4A4A4A;
+    --accent2-color: #7A6600;
+    --accent3-color: #8f8f8f;
     --heading-font: "Lato", sans-serif;
     --text-font: "Lato", sans-serif;
 }
@@ -25,7 +26,7 @@ header {
     background-color: var(--secondary-color);
     max-width: 2000px;
     margin: 1rem auto;
-    border: 1px solid var(--accent1-color);
+    border: 1px solid var(--accent3-color);
     padding: 1rem;
 }
 
@@ -44,7 +45,7 @@ nav img {
 nav h1 {
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
-    color: var(--accent2-color);
+    color: black;
 }
 
 .menu {
@@ -91,7 +92,7 @@ nav h1 {
 
 .head h1 {
     background-color: rgba(27, 26, 110, 0.411);
-    color: var(--accent1-color);
+    color: lightgray;
     margin: 15px auto;
     padding: 50px;
     font-size: 60px;
@@ -103,9 +104,9 @@ nav h1 {
 }
 
 article {
-    color: var(--accent2-color);
+    color: black;
     background-color: rgba(13, 12, 77, 0.2);
-    border: 1px solid var(--accent1-color);
+    border: 1px solid var(--accent3-color);
     text-align: center;
     margin: 15px auto;
     padding: 10px;
@@ -138,7 +139,7 @@ article {
     border-radius: 10px;
     text-align: center;
     font-size: 16px;
-    border: 1px solid var(--accent1-color);
+    border: 1px solid var(--accent3-color);
     margin-bottom: 20px;
     max-width: 30%; 
     position: absolute;
@@ -199,7 +200,7 @@ section h2 {
     flex-wrap: wrap;
     margin: 1rem auto;
     padding: 15px;
-    border: 1px solid var(--accent1-color);
+    border: 1px solid var(--accent3-color);
     background-color: var(--secondary-color); 
     gap: 0.1rem;
     max-width: 2000px; 
