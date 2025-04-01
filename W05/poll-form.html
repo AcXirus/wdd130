@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles/poll-form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>WDD 130 | HTML Form – User Poll</title>
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Dillan Samuel Torres | HTML Form – User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">    
+                <label>Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2"> 
+                <label>Email</label>
+                <input type="text" id="useremail" name="useremail">
+        </fieldset>
+        <fieldset>
+            <legend>Question</legend>
+            <div class="column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="" selected disabled>[Default]</option>
+                    <option value="OperaGX">OperaGX</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Microsoft Edge">Microsoft Edge</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+            <label for="feedback">List the places you have lived:</label>
+            <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            <button type="submit">Submit poll</button>
+        </fieldset>
+    </form>
+</main>
+<footer>
+  <p>©2025 | HTML Form – User Poll Activity | Dillan Samuel Torres</p>
+</footer>
+</body>
+</html>
