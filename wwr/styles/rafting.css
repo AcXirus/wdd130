@@ -341,6 +341,7 @@ div iframe{
 .part2 h2 {
     background-color: rgba(8, 4, 236, 0.192);
     border-radius: 6px;
+    color: black;
 }
 
 .part3 {
@@ -396,7 +397,7 @@ button {
     margin: 1rem;
     padding: 8px;
     border: none;
-    color: navy;
+    color: black;
     background-color: #72707080;
     border-radius: 15px;
     font-size: 0.92rem;
